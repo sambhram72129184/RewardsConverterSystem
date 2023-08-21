@@ -23,16 +23,4 @@ public class RewardValue {
     public double getMilesValue() {
         return milesValue;
     }
-
-    //The purpose of this below code is to show you how the RewardValue class can be utilized in practice.
-    //public static void main(String[] args) {
-        //RewardValue reward1 = new RewardValue(100.0); // Cash value
-        //RewardValue reward2 = new RewardValue(35000.0, true); // Miles value
-
-        //System.out.println("Reward 1 - Cash Value: $" + reward1.getCashValue());
-        //System.out.println("Reward 1 - Miles Value: " + reward1.getMilesValue() + " miles");
-
-        //System.out.println("Reward 2 - Cash Value: $" + reward2.getCashValue());
-        //System.out.println("Reward 2 - Miles Value: " + reward2.getMilesValue() + " miles");
-    }
 }
